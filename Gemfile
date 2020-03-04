@@ -26,7 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-gem 'puma'
+gem 'puma', '~> 3.7.0'
 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'font-awesome-rails'
@@ -43,7 +43,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'quiet_assets'
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '~> 2.0'
 end
 
 group :development do
