@@ -2,6 +2,7 @@ class OrdersController < ApplicationController
 
   def show
     @order = Order.find(params[:id])
+    # raise @order.inspect
   end
 
   def create
@@ -52,6 +53,7 @@ class OrdersController < ApplicationController
         total_price: product.price * quantity
       )
     end
+    
     order.save!
     order
   end
