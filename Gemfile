@@ -46,6 +46,9 @@ group :development, :test do
   gem 'dotenv-rails', '~> 2.0'
   gem 'rspec-rails', '~> 3.5'
   gem 'shoulda-matchers'
+  gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
 
 end
 
