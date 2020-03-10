@@ -6,7 +6,7 @@ RSpec.feature "AddToCarts", type: :feature, js: true do
   before :each do
     @category = Category.create! name: 'Apparel'
 
-    
+    # create a product and add it to cart
       @category.products.create!(
         name:  Faker::Hipster.sentence(3),
         description: Faker::Hipster.paragraph(4),
@@ -22,8 +22,6 @@ RSpec.feature "AddToCarts", type: :feature, js: true do
     visit root_path
 
     click_on 'Add'
-
-    # visit 'products/1'
 
     # DEBUG
     save_screenshot

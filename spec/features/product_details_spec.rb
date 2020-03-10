@@ -7,7 +7,7 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
   # SETUP
   before :each do
     @category = Category.create! name: 'Apparel'
-
+# creating products
     10.times do |n|
       @category.products.create!(
         name:  Faker::Hipster.sentence(3),
@@ -27,6 +27,8 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
 
     visit 'products/1'
 
+    
+
 
     
 
@@ -34,6 +36,6 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
     save_screenshot
 
     # VERIFY
-    # expect(page).to have_css 'article.product', count: 1
+    expect(page).to have_css 'section.products-show'
   end
 end
