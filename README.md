@@ -3,13 +3,13 @@
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
 # Final Product
-ScreenShot of Home page Layout
+
 !["ScreenShot of Home page Layout"](https://github.com/Meghanath91/jungle-rails/blob/master/vendor/assets/images_animation/Screenshot_of_home_page.jpg)
-ScreenShot of Creating an appointment
+
 !["ScreenShot of order_summary"](https://github.com/Meghanath91/jungle-rails/blob/master/vendor/assets/images_animation/Screenshot_order_summary.jpg)
-ScreenShot of Deleting an appointment
+
 !["ScreenShot of order cart"](https://github.com/Meghanath91/jungle-rails/blob/master/vendor/assets/images_animation/screenshot_of_order_cart.jpg)
-ScreenShot of Deleting animation
+
 
 This animation will show the overall working of Application
 !["Animation of application use"](https://github.com/Meghanath91/jungle-rails/blob/master/vendor/assets/images_animation/Jungle.webm)
