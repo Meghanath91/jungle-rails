@@ -28,7 +28,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'puma', '~> 3.7.0'
 
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'font-awesome-rails'
 gem 'money-rails'
 gem 'carrierwave'
